@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 80vh;
+  width: 100vw;
+  background: url('./bgimg.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form{
+  width: 400px;
+  height: 250px;
+  background: rgb(52, 141, 230);
+  padding: 20px 10px;
+  margin: 100px;
+  padding-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0 60px 80px rgba(43, 69, 79, 0.635), 0 45px 26px rgba(84, 149, 170, 0.42);
+}
+.form .input{
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 70%;
+  border-radius: 30px;
+  padding: 5px 15px;
+
+}
+.form input[type='submit']{
+  height: 35px;
+  padding: 10px 15px;
+  display: flex;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(100, 100, 100);
+  text-transform: uppercase;
+  transition: all .4s ease;
+}
+.form input[type='submit']:hover{
+  /* background: rgb(188, 186, 186);
+  color: white; */
+  color: #000;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.form > *::placeholder{
+  color: rgb(0, 0, 0);
+}
